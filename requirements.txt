@@ -1,0 +1,5 @@
+supabase
+pynecone
+bs4
+diskcache
+
