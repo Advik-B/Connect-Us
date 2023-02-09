@@ -4,3 +4,4 @@ venv/
 
 .web
 pynecone.db
+*.DS_Store
