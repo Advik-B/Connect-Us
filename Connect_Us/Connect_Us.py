@@ -3,6 +3,8 @@ from pcconfig import config
 
 import pynecone as pc
 from .index import index
+from .sidebar import sidebar
+
 
 class State(pc.State):
     """The app state."""
@@ -10,6 +12,6 @@ class State(pc.State):
     pass
 
 
-app = pc.App(state=State)
-app.add_page(index)
+app = pc.App(state=State, )
+app.add_page(index, title="Home")
 app.compile()
